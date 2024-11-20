@@ -50,7 +50,7 @@ Name="Database Subnet 1"
 resource "aws_subnet" "database-subnet-2" {
 vpc_id="${aws_vpc.demovpc.id}"
 cidr_block="${var.subnet6_cidr}"
-availability_zone="us-east-1a"
+availability_zone="us-east-1b"
 tags={
 Name="Database Subnet 1"
 }
